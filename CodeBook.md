@@ -4,12 +4,8 @@ For the provided UCI HAR Dataset the following vars are set from run_analysis.R.
 
 ### Tidy Mean
 
-A data.table named `tidydata.mean` is set with the following columns.  All units are maintained from the original data set. A file named tidy.mean.txt is written from run_analysis.R.
-| column       | description                                              | type    |
-| ------------ | -------------------------------------------------------- | ------- |
-| Subject      | Identifier of the subject                                | integer |
-| Activity     | Label of the activity                                    | factor  |
-| Variables    | Mean of the Variables                                    | Numeric |
+A data.table named `tidydata.mean` is set from the original data set. A file named tidydata.mean.txt is written from run_analysis.R.
+
 
 
 ### Tidy data
